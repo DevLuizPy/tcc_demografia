@@ -5,9 +5,9 @@ Este é um projeto destinado a compartilhar com outros estudantes da area de eco
 OBS: A base desse projeto será o tcc de minha autoria, que está em andamento, com previsão de conclusão até dezembro de 2025.
 
 **Ultimos updates**
-- [] Capitulo 3 feito
-- [] Capitulo 2 feito
-- [] Capitulo 1 feito
+- [ ] Capitulo 3 feito
+- [ ] Capitulo 2 feito
+- [ ] Capitulo 1 feito
 - [x] Pirâmide etária da região metropolitana
 - [x] Pirâmide etária do rio de janeiro
 - [x] Pirâmide etária do Brasil futura - Dados ONU
