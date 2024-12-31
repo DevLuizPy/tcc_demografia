@@ -20,27 +20,23 @@ def percentual(x, pos):
     return f'{x:.0f}%'
 
 
-# Loop sobre os anos
+# Caclulo para os anos
 for ano in df_homens.index:
     plt.figure(figsize=(10, 8))
 
     total_populacao = df_homens.loc[ano].sum() + df_mulheres.loc[ano].sum()
-    # Dados para o ano específico
     populacao_homens: DataFrame = -df_homens.loc[ano] / total_populacao * 100
     populacao_mulheres: DataFrame = df_mulheres.loc[ano] / total_populacao * 100
     faixa_etaria = df_homens.columns
-    # Plotar as barras
     plt.barh(faixa_etaria, populacao_homens, color='red', label='Homens')
     plt.barh(faixa_etaria, populacao_mulheres, color='blue', label='Mulheres')
-
-    # Configurar o gráfico
     plt.xlabel('População (%)')
     plt.ylabel('Faixa Etária')
     ano_1 = 2024 + ano
     plt.title(f'Estrutura Etária em {ano_1} (%)')
     plt.legend()
 
-    # Aplicar o formato percentual ao eixo X
+    # Formato percentual para o eixo X
     plt.gca().xaxis.set_major_formatter(FuncFormatter(percentual))
 
     filename = f"estrutura_etaria_{ano_1}.png"

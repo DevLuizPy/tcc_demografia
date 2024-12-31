@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -46,31 +46,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Onu_dados.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.mapa_razao_suporte_metro_rio_2010.html.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Onu_dados.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo_educacao.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo_educacao_brasil.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo_educacao_rio_de_janeiro.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo_piramide_etaria_brasil.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo_piramide_etaria_regiao_metropolitana.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo_piramide_etaria_rio_de_janeiro.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo_razao_de_suporte_brasil.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo_razao_de_suporte_rj.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo_razao_de_suporte_rmrj.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo_renda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo_renda_agregada.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo_renda_agregada_brasil.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo_renda_agregada_rj.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo_renda_agregada_rmrj.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo_renda_rio_de_janeiro_e_brasil.executor&quot;: &quot;Run&quot;,
+    &quot;Python.corte_censos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gerando_mapas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.importando_municipios.executor&quot;: &quot;Run&quot;,
+    &quot;Python.matriz_razao_suporte_agregada.executor&quot;: &quot;Run&quot;,
+    &quot;Python.razao_de_suporte.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gisel/PycharmProjects/Tcc_demografia&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia\Fotos" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia\Old" />
+      <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia\calculo_estatistica_educacao" />
+      <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia\estatisticas_renda" />
+      <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia\razao_de_suporte" />
+      <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="mapa_razao_suporte_metro_rio_2010.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tcc_demografia/mapa_razao_suporte_metro_rio_2010.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.mapa_razao_suporte_metro_rio_2010.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PY-242.20224.428" />
-        <option value="bundled-python-sdk-80e8e15d2b92-39cff9de6eef-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.20224.428" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220" />
+        <option value="bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220" />
       </set>
     </attachedChunks>
   </component>
@@ -95,6 +135,37 @@
       <workItem from="1726966658997" duration="789000" />
       <workItem from="1726967651053" duration="92000" />
       <workItem from="1726967897499" duration="2554000" />
+      <workItem from="1729711196291" duration="12379000" />
+      <workItem from="1729903834123" duration="17000" />
+      <workItem from="1730315585887" duration="1359000" />
+      <workItem from="1730416835517" duration="2709000" />
+      <workItem from="1730478979267" duration="487000" />
+      <workItem from="1730588578577" duration="5126000" />
+      <workItem from="1730645130880" duration="3035000" />
+      <workItem from="1730657661121" duration="2374000" />
+      <workItem from="1730906785230" duration="30000" />
+      <workItem from="1730913520514" duration="6343000" />
+      <workItem from="1730943631139" duration="3067000" />
+      <workItem from="1731284215579" duration="2933000" />
+      <workItem from="1731359805417" duration="1075000" />
+      <workItem from="1731366496185" duration="4904000" />
+      <workItem from="1733537450531" duration="5000" />
+      <workItem from="1733686174379" duration="753000" />
+      <workItem from="1733692091049" duration="16291000" />
+      <workItem from="1733796729633" duration="1656000" />
+      <workItem from="1735069499833" duration="3767000" />
+      <workItem from="1735317552168" duration="322000" />
+      <workItem from="1735319088548" duration="5824000" />
+      <workItem from="1735345982034" duration="630000" />
+      <workItem from="1735354321426" duration="3006000" />
+      <workItem from="1735408799661" duration="5438000" />
+      <workItem from="1735437131003" duration="3680000" />
+      <workItem from="1735489800696" duration="700000" />
+      <workItem from="1735490984434" duration="4357000" />
+      <workItem from="1735496581522" duration="906000" />
+      <workItem from="1735584143210" duration="4153000" />
+      <workItem from="1735605715484" duration="9112000" />
+      <workItem from="1735652269272" duration="2749000" />
     </task>
     <servers />
   </component>
@@ -118,6 +189,26 @@
     </ignored-roots>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Tcc_demografia$Onu_dados.coverage" NAME="Onu_dados Coverage Results" MODIFIED="1724296784393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_piramide_etaria_brasil.coverage" NAME="calculo_piramide_etaria_brasil Coverage Results" MODIFIED="1733710958373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$matriz_razao_suporte_agregada.coverage" NAME="matriz_razao_suporte_agregada Coverage Results" MODIFIED="1730944030368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$corte_censos.coverage" NAME="corte_censos Coverage Results" MODIFIED="1733697686226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_piramide_etaria_regiao_metropolitana.coverage" NAME="calculo_piramide_etaria_regiao_metropolitana Coverage Results" MODIFIED="1735325033109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_educacao_rio_de_janeiro.coverage" NAME="calculo_educacao_rio_de_janeiro Coverage Results" MODIFIED="1735438155173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$Onu_dados.coverage" NAME="Onu_dados Coverage Results" MODIFIED="1735606151696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$razao_de_suporte.coverage" NAME="razao_de_suporte Coverage Results" MODIFIED="1730479419030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_agregada.coverage" NAME="calculo_renda_agregada Coverage Results" MODIFIED="1730917512548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda.coverage" NAME="calculo_renda Coverage Results" MODIFIED="1730917215342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_agregada_rj.coverage" NAME="calculo_renda_agregada_rj Coverage Results" MODIFIED="1735356834330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_piramide_etaria_rio_de_janeiro.coverage" NAME="calculo_piramide_etaria_rio_de_janeiro Coverage Results" MODIFIED="1735320090915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_razao_de_suporte_brasil.coverage" NAME="calculo_razao_de_suporte_brasil Coverage Results" MODIFIED="1735409171262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$gerando_mapas.coverage" NAME="gerando_mapas Coverage Results" MODIFIED="1731360580073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_razao_de_suporte_rmrj.coverage" NAME="calculo_razao_de_suporte_rmrj Coverage Results" MODIFIED="1735409771218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_educacao.coverage" NAME="calculo_educacao Coverage Results" MODIFIED="1735437724441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_razao_de_suporte_rj.coverage" NAME="calculo_razao_de_suporte_rj Coverage Results" MODIFIED="1735409300632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_rio_de_janeiro_e_brasil.coverage" NAME="calculo_renda_rio_de_janeiro_e_brasil Coverage Results" MODIFIED="1730946573905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_agregada_brasil.coverage" NAME="calculo_renda_agregada_brasil Coverage Results" MODIFIED="1735357256441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$importando_municipios.coverage" NAME="importando_municipios Coverage Results" MODIFIED="1729735987798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_agregada_rmrj.coverage" NAME="calculo_renda_agregada_rmrj Coverage Results" MODIFIED="1735356510514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_educacao_brasil.coverage" NAME="calculo_educacao_brasil Coverage Results" MODIFIED="1735438305188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
