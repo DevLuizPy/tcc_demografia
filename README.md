@@ -4,11 +4,19 @@ Este é um projeto destinado a compartilhar com outros estudantes da area de eco
 
 OBS: A base desse projeto será o tcc de minha autoria, que está em andamento, com previsão de conclusão até dezembro de 2025.
 
-**Ultimos uptades**
-- [ ] Elaboração da escrita do tcc
-- [ ] Calculo do Bonus demografico
-- [ ] Tratamento da base de dados
-- [x] Criação do pré-projeto
+**Ultimos updates**
+- [] Capitulo 3 feito
+- [] Capitulo 2 feito
+- [] Capitulo 1 feito
+- [x] Pirâmide etária da região metropolitana
+- [x] Pirâmide etária do rio de janeiro
+- [x] Pirâmide etária do Brasil futura - Dados ONU
+- [x] Piramide etária do Brasil
+- [x] Cálculo das estatisticas de renda
+- [x] Cálculo das estatisticas educacionais
+- [x] Cálculo do Bônus demográfico
+- [x] Corte na base de dados
+- [x] Criação do pré-projeto 
 
 ## Sumário
 
