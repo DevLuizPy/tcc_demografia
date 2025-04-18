@@ -66,8 +66,12 @@
     &quot;Python.calculo_renda_agregada_rmrj.executor&quot;: &quot;Run&quot;,
     &quot;Python.calculo_renda_rio_de_janeiro_e_brasil.executor&quot;: &quot;Run&quot;,
     &quot;Python.corte_censos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.forca_trabalho_brasil.executor&quot;: &quot;Run&quot;,
+    &quot;Python.forca_trabalho_rio_de_janeiro.executor&quot;: &quot;Run&quot;,
+    &quot;Python.forca_trabalho_rmrj.executor&quot;: &quot;Run&quot;,
     &quot;Python.gerando_mapas.executor&quot;: &quot;Run&quot;,
     &quot;Python.importando_municipios.executor&quot;: &quot;Run&quot;,
+    &quot;Python.labor_force.executor&quot;: &quot;Run&quot;,
     &quot;Python.matriz_razao_suporte_agregada.executor&quot;: &quot;Run&quot;,
     &quot;Python.razao_de_suporte.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -89,11 +93,11 @@
       <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia\razao_de_suporte" />
+      <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia\calculo_forca_trabalho" />
       <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia\Old" />
       <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia\calculo_estatistica_educacao" />
       <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia\estatisticas_renda" />
-      <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia\razao_de_suporte" />
-      <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia" />
     </key>
   </component>
   <component name="RunManager">
@@ -109,8 +113,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220" />
-        <option value="bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
+        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
       </set>
     </attachedChunks>
   </component>
@@ -165,7 +169,16 @@
       <workItem from="1735496581522" duration="906000" />
       <workItem from="1735584143210" duration="4153000" />
       <workItem from="1735605715484" duration="9112000" />
-      <workItem from="1735652269272" duration="2749000" />
+      <workItem from="1735652269272" duration="5458000" />
+      <workItem from="1735666510305" duration="2249000" />
+      <workItem from="1738799387629" duration="1796000" />
+      <workItem from="1741369954801" duration="2536000" />
+      <workItem from="1741809520177" duration="3381000" />
+      <workItem from="1744041329898" duration="4880000" />
+      <workItem from="1744049747200" duration="2171000" />
+      <workItem from="1744218461167" duration="3278000" />
+      <workItem from="1744388389643" duration="4270000" />
+      <workItem from="1744981212553" duration="676000" />
     </task>
     <servers />
   </component>
@@ -189,25 +202,29 @@
     </ignored-roots>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_piramide_etaria_brasil.coverage" NAME="calculo_piramide_etaria_brasil Coverage Results" MODIFIED="1733710958373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tcc_demografia$matriz_razao_suporte_agregada.coverage" NAME="matriz_razao_suporte_agregada Coverage Results" MODIFIED="1730944030368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$corte_censos.coverage" NAME="corte_censos Coverage Results" MODIFIED="1733697686226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_piramide_etaria_regiao_metropolitana.coverage" NAME="calculo_piramide_etaria_regiao_metropolitana Coverage Results" MODIFIED="1735325033109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$forca_trabalho_rmrj.coverage" NAME="forca_trabalho_rmrj Coverage Results" MODIFIED="1744046474282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_educacao_rio_de_janeiro.coverage" NAME="calculo_educacao_rio_de_janeiro Coverage Results" MODIFIED="1735438155173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tcc_demografia$Onu_dados.coverage" NAME="Onu_dados Coverage Results" MODIFIED="1735606151696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura" />
     <SUITE FILE_PATH="coverage/Tcc_demografia$razao_de_suporte.coverage" NAME="razao_de_suporte Coverage Results" MODIFIED="1730479419030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_agregada.coverage" NAME="calculo_renda_agregada Coverage Results" MODIFIED="1730917512548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda.coverage" NAME="calculo_renda Coverage Results" MODIFIED="1730917215342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_agregada_rj.coverage" NAME="calculo_renda_agregada_rj Coverage Results" MODIFIED="1735356834330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_piramide_etaria_rio_de_janeiro.coverage" NAME="calculo_piramide_etaria_rio_de_janeiro Coverage Results" MODIFIED="1735320090915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_razao_de_suporte_brasil.coverage" NAME="calculo_razao_de_suporte_brasil Coverage Results" MODIFIED="1735409171262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$gerando_mapas.coverage" NAME="gerando_mapas Coverage Results" MODIFIED="1731360580073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_razao_de_suporte_rmrj.coverage" NAME="calculo_razao_de_suporte_rmrj Coverage Results" MODIFIED="1735409771218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_educacao.coverage" NAME="calculo_educacao Coverage Results" MODIFIED="1735437724441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_razao_de_suporte_rj.coverage" NAME="calculo_razao_de_suporte_rj Coverage Results" MODIFIED="1735409300632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_rio_de_janeiro_e_brasil.coverage" NAME="calculo_renda_rio_de_janeiro_e_brasil Coverage Results" MODIFIED="1730946573905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_agregada_brasil.coverage" NAME="calculo_renda_agregada_brasil Coverage Results" MODIFIED="1735357256441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tcc_demografia$importando_municipios.coverage" NAME="importando_municipios Coverage Results" MODIFIED="1729735987798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_piramide_etaria_brasil.coverage" NAME="calculo_piramide_etaria_brasil Coverage Results" MODIFIED="1733710958373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$forca_trabalho_rio_de_janeiro.coverage" NAME="forca_trabalho_rio_de_janeiro Coverage Results" MODIFIED="1744052447624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$corte_censos.coverage" NAME="corte_censos Coverage Results" MODIFIED="1741809613253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$forca_trabalho_brasil.coverage" NAME="forca_trabalho_brasil Coverage Results" MODIFIED="1744052591837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_piramide_etaria_regiao_metropolitana.coverage" NAME="calculo_piramide_etaria_regiao_metropolitana Coverage Results" MODIFIED="1735325033109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$labor_force.coverage" NAME="labor_force Coverage Results" MODIFIED="1744043446825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda.coverage" NAME="calculo_renda Coverage Results" MODIFIED="1730917215342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_razao_de_suporte_brasil.coverage" NAME="calculo_razao_de_suporte_brasil Coverage Results" MODIFIED="1735409171262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$gerando_mapas.coverage" NAME="gerando_mapas Coverage Results" MODIFIED="1731360580073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_razao_de_suporte_rmrj.coverage" NAME="calculo_razao_de_suporte_rmrj Coverage Results" MODIFIED="1735409771218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_educacao.coverage" NAME="calculo_educacao Coverage Results" MODIFIED="1735437724441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_agregada_rmrj.coverage" NAME="calculo_renda_agregada_rmrj Coverage Results" MODIFIED="1735356510514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_educacao_brasil.coverage" NAME="calculo_educacao_brasil Coverage Results" MODIFIED="1735438305188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
