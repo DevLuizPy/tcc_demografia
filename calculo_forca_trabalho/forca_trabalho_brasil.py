@@ -25,11 +25,11 @@ for ano, arquivo in arquivos_censos.items():
 
     # Filtrar os dados para pessoas com mais de 25 anos, sexo e educação válidos, e força de trabalho conhecida
     df_filtrado = df_censo[
-        (df_censo['AGE'] > 24) &
+        (df_censo['AGE'] > 24) & (df_censo['AGE'] < 65) &
         (df_censo['SEX'].isin([1, 2])) &
         (df_censo['EDATTAIN'].isin([1, 2, 3, 4])) &
         (df_censo['LABFORCE'].isin([1, 2]))
-    ]
+        ]
 
     # Na força de trabalho
     dentro = df_filtrado[df_filtrado['LABFORCE'] == 2]
@@ -63,5 +63,5 @@ colunas_ordem = ["Situacao", "Nível educacional", "Sexo"] + sorted(arquivos_cen
 df_final = df_final[colunas_ordem]
 
 # Exportar
-df_final.to_excel("forca_trabalho_brasil.xlsx", index=False)
+df_final.to_excel("forca_trabalho_brasil_2.xlsx", index=False)
 print("Arquivo 'forca_trabalho_brasil.xlsx' criado com sucesso.")
