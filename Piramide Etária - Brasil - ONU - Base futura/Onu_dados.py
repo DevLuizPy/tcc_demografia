@@ -4,15 +4,19 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import FuncFormatter
 import moviepy.editor as mp
 
-df_homens: DataFrame = pd.read_excel('C:\\Users\\gisel\\OneDrive\\Documentos\\Tcc-demografia.xlsm', sheet_name='Brazil_Homens')
-df_mulheres: DataFrame = pd.read_excel('C:\\Users\\gisel\\OneDrive\\Documentos\\Tcc-demografia.xlsm', sheet_name='Brazil_Mulheres')
-
+df_homens: DataFrame = pd.read_excel('C:\\Users\\gisel\\OneDrive\\Documentos\\Tcc-demografia.xlsm',
+                                     sheet_name='Brazil_Homens')
+df_mulheres: DataFrame = pd.read_excel('C:\\Users\\gisel\\OneDrive\\Documentos\\Tcc-demografia.xlsm',
+                                       sheet_name='Brazil_Mulheres')
 
 png_files = []
 
-
 df_homens.drop('Ano', axis=1, inplace=True)
 df_mulheres.drop('Ano', axis=1, inplace=True)
+
+# Adicionando " anos" ao nome de todas as colunas de faixa etária
+df_homens.columns = [f"{col} anos" for col in df_homens.columns]
+df_mulheres.columns = [f"{col} anos" for col in df_mulheres.columns]
 
 
 def percentual(x, pos):
@@ -28,6 +32,7 @@ for ano in df_homens.index:
     populacao_homens: DataFrame = -df_homens.loc[ano] / total_populacao * 100
     populacao_mulheres: DataFrame = df_mulheres.loc[ano] / total_populacao * 100
     faixa_etaria = df_homens.columns
+
     plt.barh(faixa_etaria, populacao_homens, color='red', label='Homens')
     plt.barh(faixa_etaria, populacao_mulheres, color='blue', label='Mulheres')
     plt.xlabel('População (%)')

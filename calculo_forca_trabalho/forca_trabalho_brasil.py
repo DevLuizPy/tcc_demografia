@@ -29,9 +29,9 @@ for ano, arquivo in arquivos_censos.items():
         (df_censo['SEX'].isin([1, 2])) &
         (df_censo['EDATTAIN'].isin([1, 2, 3, 4])) &
         (df_censo['LABFORCE'].isin([1, 2]))
-        ]
+    ]
 
-    # Na força de trabalho
+    # Na força de trabalho (Aberto por Educação e Sexo)
     dentro = df_filtrado[df_filtrado['LABFORCE'] == 2]
     grupo_dentro = dentro.groupby(['EDATTAIN', 'SEX'])['PERWT'].sum().reset_index()
     grupo_dentro["Situacao"] = "Na força de trabalho"
@@ -40,16 +40,16 @@ for ano, arquivo in arquivos_censos.items():
     grupo_dentro = grupo_dentro[["Situacao", "Nível educacional", "Sexo", "PERWT"]]
     grupo_dentro = grupo_dentro.rename(columns={"PERWT": ano})
 
-    # Fora da força de trabalho (sem decomposição)
-    total_fora = df_filtrado[df_filtrado["LABFORCE"] == 1]["PERWT"].sum()
-    grupo_fora = pd.DataFrame({
-        "Situacao": ["Fora da força de trabalho"],
-        "Nível educacional": [None],
-        "Sexo": [None],
-        ano: [total_fora]
-    })
+    # Fora da força de trabalho (Aberto APENAS por Sexo)
+    fora = df_filtrado[df_filtrado["LABFORCE"] == 1]
+    grupo_fora = fora.groupby('SEX')['PERWT'].sum().reset_index()
+    grupo_fora["Situacao"] = "Fora da força de trabalho"
+    grupo_fora["Nível educacional"] = None # Mantemos nulo pois você não quer abrir por educação aqui
+    grupo_fora["Sexo"] = grupo_fora["SEX"].map(sex_labels)
+    grupo_fora = grupo_fora[["Situacao", "Nível educacional", "Sexo", "PERWT"]]
+    grupo_fora = grupo_fora.rename(columns={"PERWT": ano})
 
-    # Concatenar
+    # Concatenar as duas situações
     df_ano = pd.concat([grupo_dentro, grupo_fora], ignore_index=True)
     dados_todos_anos.append(df_ano)
 
@@ -64,4 +64,4 @@ df_final = df_final[colunas_ordem]
 
 # Exportar
 df_final.to_excel("forca_trabalho_brasil_2.xlsx", index=False)
-print("Arquivo 'forca_trabalho_brasil.xlsx' criado com sucesso.")
+print("Arquivo 'forca_trabalho_brasil_2.xlsx' criado com sucesso.")
