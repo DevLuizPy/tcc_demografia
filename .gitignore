@@ -1,3 +1,15 @@
 *.xlsx
 *.csv
 *.mp4
+
+# Arquivos RJ e RMRJ
+estatisticas_renda/calculo_renda_agregada_rj.py
+razao_de_suporte/calculo_razao_de_suporte_rj.py
+razao_de_suporte/calculo_razao_de_suporte_rmrj.py
+Piramide Etária Região Metropolitana do Rio de Janeiro/
+Piramide Etária Rio de Janeiro - Censos 1960 a 2010/
+calculo_estatistica_educacao/calculo_educacao_rio_de_janeiro.py
+calculo_estatistica_educacao/calculo_educacao_rmrj.py
+calculo_forca_trabalho/forca_trabalho_rio_de_janeiro.py
+calculo_forca_trabalho/forca_trabalho_rmrj.py
+estatisticas_renda/calculo_renda_agregada_rmrj.py
