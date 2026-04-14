@@ -1,15 +1,13 @@
 ![Simbolo da UFRRJ](https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2019/04/resumo-atualidades-demografia-e-envelhecimento-populacional.png?w=1024)
-# Os dividendos demográficos da região metropolitana do rio de janeiro
-Este é um projeto destinado a compartilhar com outros estudantes da area de economia, interessados na parte de demografia economica, a respeito da metodologia e dos códigos necessários para o cálculo do dividendo demográfico de uma determinada região.
+# Os dividendos demográficos do Brasil
+Este é um projeto destinado a compartilhar com outros estudantes da area de economia, interessados na parte de demografia economica, a respeito da metodologia e dos códigos necessários para o cálculo do dividendo demográfico do Brasil, com base nos cálculos do National Transfer Accounts (NTA).
 
-OBS: A base desse projeto será o tcc de minha autoria, que está em andamento, com previsão de conclusão até dezembro de 2025.
+OBS: A base desse projeto será o tcc de minha autoria, que está em andamento, com previsão de conclusão até junho de 2026.
 
 **Ultimos updates**
 - [ ] Capitulo 3 feito
-- [ ] Capitulo 2 feito
-- [ ] Capitulo 1 feito
-- [x] Pirâmide etária da região metropolitana
-- [x] Pirâmide etária do rio de janeiro
+- [x] Capitulo 2 feito
+- [x] Capitulo 1 feito
 - [x] Pirâmide etária do Brasil futura - Dados ONU
 - [x] Piramide etária do Brasil
 - [x] Cálculo das estatisticas de renda
@@ -34,7 +32,7 @@ No século XXI, um novo problema surge, a redução nas taxas de natalidade nos 
 
 ## Objetivo
 
-Esse trabalho visa a mensuração do efeito do crescimento demográfico em relação ao desenvolvimento economico na região metropolitana do Rio de Janeiro, com base nas informações demográficas previstas nos censos de 1960 até 2010. Para tal, o conceito de dividendo demográfico será apresentado, mostrando a relação entre as variáveis populacionais e variáveis econômicas. Além disso, mudanças na escolaridade e na inserção das mulheres no mercado de trabalho, serão apresentados como parte do dividendo demográfico de educação e gênero.
+Esse trabalho visa a mensuração do efeito do crescimento demográfico em relação ao desenvolvimento economico do Brasil, com base nas informações demográficas previstas nos censos de 1960 até 2010. Para tal, o conceito de dividendo demográfico será apresentado, mostrando a relação entre as variáveis populacionais e variáveis econômicas. Além disso, mudanças na escolaridade e na inserção das mulheres no mercado de trabalho, serão apresentados como parte do dividendo demográfico de educação e gênero.
 
 ## Metodologia
 
