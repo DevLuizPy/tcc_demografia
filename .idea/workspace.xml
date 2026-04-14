@@ -5,7 +5,117 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="433ef8ae-8ca7-4548-a3bd-6ae41615ef7b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Base_FRED_PIB.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Base_Onu_dividendo.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Base_de_Dados_FMI.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Base_de_Dados_FMI_2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculo_NTA_Dividendo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculo_NTA_dividendo_ONU.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculo_Produto_NTA_Trabalho.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desemprego_IPEA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grafico_Produtividade_FGV.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IPEA_1980_2000.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IPEA_2002_2015.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IPEA_2012_2026.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Piramide_censo_2022.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Produtividade_FGV.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tabela_9514_Piramide.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculo_NTA_Grafico.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comparacao_ONU_Censo_2022.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafico_FMI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ipea.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tcc_demografia.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/Onu_dados.py" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/Onu_dados.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2024.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2024.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2025.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2025.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2026.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2026.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2027.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2027.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2028.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2028.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2029.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2029.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2030.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2030.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2031.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2031.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2032.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2032.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2033.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2033.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2034.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2034.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2035.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2035.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2036.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2036.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2037.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2037.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2038.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2038.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2039.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2039.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2040.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2040.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2041.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2041.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2042.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2042.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2043.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2043.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2044.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2044.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2045.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2045.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2046.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2046.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2047.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2047.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2048.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2048.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2049.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2049.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2050.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2050.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2051.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2051.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2052.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2052.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2053.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2053.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2054.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2054.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2055.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2055.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2056.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2056.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2057.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2057.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2058.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2058.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2059.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2059.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2060.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2060.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2061.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2061.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2062.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2062.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2063.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2063.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2064.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2064.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2065.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2065.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2066.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2066.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2067.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2067.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2068.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2068.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2069.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2069.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2070.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2070.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2071.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2071.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2072.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2072.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2073.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2073.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2074.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2074.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2075.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2075.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2076.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2076.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2077.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2077.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2078.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2078.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2079.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2079.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2080.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2080.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2081.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2081.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2082.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2082.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2083.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2083.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2084.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2084.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2085.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2085.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2086.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2086.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2087.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2087.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2088.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2088.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2089.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2089.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2090.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2090.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2091.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2091.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2092.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2092.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2093.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2093.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2094.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2094.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2095.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2095.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2096.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2096.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2097.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2097.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2098.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2098.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2099.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2099.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2100.png" beforeDir="false" afterPath="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura/estrutura_etaria_2100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária Brasil -  Censos 1960 a 2010/calculo_piramide_etaria_brasil.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculo_piramide_etaria_brasil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária Brasil -  Censos 1960 a 2010/piramide_etaria_brasil_1960.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária Brasil -  Censos 1960 a 2010/piramide_etaria_brasil_1970.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária Brasil -  Censos 1960 a 2010/piramide_etaria_brasil_1980.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária Brasil -  Censos 1960 a 2010/piramide_etaria_brasil_1991.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária Brasil -  Censos 1960 a 2010/piramide_etaria_brasil_2000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piramide Etária Brasil -  Censos 1960 a 2010/piramide_etaria_brasil_2010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculo_forca_trabalho/forca_trabalho_brasil.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculo_forca_trabalho/forca_trabalho_brasil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculo_forca_trabalho/forca_trabalho_brasil.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/calculo_forca_trabalho/forca_trabalho_brasil.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculo_forca_trabalho/forca_trabalho_rmrj.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/calculo_forca_trabalho/forca_trabalho_rmrj.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geolevel2 - Brasil.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/razao_de_suporte/razao_suporte_rj.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/razao_de_suporte/razao_suporte_rj.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,69 +145,90 @@
     &quot;accountId&quot;: &quot;1699afbe-2088-40aa-950c-ba0927b29eef&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2kyRM27kMQK13QbOoBT6yLZkQoj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.mapa_razao_suporte_metro_rio_2010.html.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Onu_dados.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculo_educacao.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculo_educacao_brasil.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculo_educacao_rio_de_janeiro.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculo_piramide_etaria_brasil.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculo_piramide_etaria_regiao_metropolitana.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculo_piramide_etaria_rio_de_janeiro.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculo_razao_de_suporte_brasil.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculo_razao_de_suporte_rj.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculo_razao_de_suporte_rmrj.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculo_renda.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculo_renda_agregada.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculo_renda_agregada_brasil.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculo_renda_agregada_rj.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculo_renda_agregada_rmrj.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculo_renda_rio_de_janeiro_e_brasil.executor&quot;: &quot;Run&quot;,
-    &quot;Python.corte_censos.executor&quot;: &quot;Run&quot;,
-    &quot;Python.forca_trabalho_brasil.executor&quot;: &quot;Run&quot;,
-    &quot;Python.forca_trabalho_rio_de_janeiro.executor&quot;: &quot;Run&quot;,
-    &quot;Python.forca_trabalho_rmrj.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gerando_mapas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.importando_municipios.executor&quot;: &quot;Run&quot;,
-    &quot;Python.labor_force.executor&quot;: &quot;Run&quot;,
-    &quot;Python.matriz_razao_suporte_agregada.executor&quot;: &quot;Run&quot;,
-    &quot;Python.razao_de_suporte.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gisel/PycharmProjects/Tcc_demografia&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.mapa_razao_suporte_metro_rio_2010.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Calculo_NTA_Dividendo.executor": "Run",
+    "Python.Calculo_NTA_dividendo_ONU.executor": "Run",
+    "Python.Calculo_Produto_NTA_Trabalho.executor": "Run",
+    "Python.Desemprego_IPEA.executor": "Run",
+    "Python.Grafico_Produtividade_FGV.executor": "Run",
+    "Python.Onu_dados.executor": "Run",
+    "Python.Piramide_censo_2020.executor": "Run",
+    "Python.Piramide_censo_2022.executor": "Run",
+    "Python.calculo_NTA_Grafico.executor": "Run",
+    "Python.calculo_educacao.executor": "Run",
+    "Python.calculo_educacao_brasil.executor": "Run",
+    "Python.calculo_educacao_rio_de_janeiro.executor": "Run",
+    "Python.calculo_piramide_etaria_brasil.executor": "Run",
+    "Python.calculo_piramide_etaria_regiao_metropolitana.executor": "Run",
+    "Python.calculo_piramide_etaria_rio_de_janeiro.executor": "Run",
+    "Python.calculo_razao_de_suporte_brasil.executor": "Run",
+    "Python.calculo_razao_de_suporte_rj.executor": "Run",
+    "Python.calculo_razao_de_suporte_rmrj.executor": "Run",
+    "Python.calculo_renda.executor": "Run",
+    "Python.calculo_renda_agregada.executor": "Run",
+    "Python.calculo_renda_agregada_brasil.executor": "Run",
+    "Python.calculo_renda_agregada_rj.executor": "Run",
+    "Python.calculo_renda_agregada_rmrj.executor": "Run",
+    "Python.calculo_renda_rio_de_janeiro_e_brasil.executor": "Run",
+    "Python.comparacao_ONU_Censo_2022.executor": "Run",
+    "Python.corte_censos.executor": "Run",
+    "Python.forca_trabalho_brasil.executor": "Run",
+    "Python.forca_trabalho_rio_de_janeiro.executor": "Run",
+    "Python.forca_trabalho_rmrj.executor": "Run",
+    "Python.gerando_mapas.executor": "Run",
+    "Python.grafico_FMI.executor": "Run",
+    "Python.importando_municipios.executor": "Run",
+    "Python.labor_force.executor": "Run",
+    "Python.matriz_razao_suporte_agregada.executor": "Run",
+    "Python.razao_de_suporte.executor": "Run",
+    "Python.tcc_demografia.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/gisel/PycharmProjects/Tcc_demografia",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia\razao_de_suporte" />
+      <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia\Piramide Etária Brasil -  Censos 1960 a 2010" />
+      <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia" />
       <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia\calculo_forca_trabalho" />
+      <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia\razao_de_suporte" />
       <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia\Old" />
-      <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia\calculo_estatistica_educacao" />
-      <recent name="C:\Users\gisel\PycharmProjects\Tcc_demografia\estatisticas_renda" />
     </key>
   </component>
   <component name="RunManager">
@@ -113,8 +244,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
-        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
+        <option value="bundled-js-predefined-d6986cc7102b-3bd3a6803838-JavaScript-PY-261.22158.340" />
+        <option value="bundled-python-sdk-b63d5a1f7c97-b61e75351b1f-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.22158.340" />
       </set>
     </attachedChunks>
   </component>
@@ -180,6 +311,30 @@
       <workItem from="1744388389643" duration="4270000" />
       <workItem from="1744981212553" duration="1128000" />
       <workItem from="1744997492218" duration="1379000" />
+      <workItem from="1746033185037" duration="1924000" />
+      <workItem from="1760530035841" duration="44000" />
+      <workItem from="1772238914795" duration="40000" />
+      <workItem from="1772239398971" duration="42000" />
+      <workItem from="1772239549402" duration="73000" />
+      <workItem from="1772281592673" duration="975000" />
+      <workItem from="1772583530963" duration="2260000" />
+      <workItem from="1774132829813" duration="1001000" />
+      <workItem from="1774313253961" duration="912000" />
+      <workItem from="1774366856720" duration="1859000" />
+      <workItem from="1774372642598" duration="145000" />
+      <workItem from="1774378698199" duration="5930000" />
+      <workItem from="1774464131084" duration="11250000" />
+      <workItem from="1774534029924" duration="7062000" />
+      <workItem from="1774805345406" duration="2520000" />
+      <workItem from="1774958858650" duration="9631000" />
+      <workItem from="1775065659474" duration="4265000" />
+      <workItem from="1775138239705" duration="807000" />
+      <workItem from="1775179660923" duration="30000" />
+      <workItem from="1775182234252" duration="446000" />
+      <workItem from="1775256070774" duration="7598000" />
+      <workItem from="1775402483307" duration="5301000" />
+      <workItem from="1775514928991" duration="3737000" />
+      <workItem from="1776017629581" duration="2947000" />
     </task>
     <servers />
   </component>
@@ -203,30 +358,41 @@
     </ignored-roots>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Tcc_demografia$matriz_razao_suporte_agregada.coverage" NAME="matriz_razao_suporte_agregada Coverage Results" MODIFIED="1730944030368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$forca_trabalho_rmrj.coverage" NAME="forca_trabalho_rmrj Coverage Results" MODIFIED="1744046474282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_educacao_rio_de_janeiro.coverage" NAME="calculo_educacao_rio_de_janeiro Coverage Results" MODIFIED="1735438155173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$Onu_dados.coverage" NAME="Onu_dados Coverage Results" MODIFIED="1735606151696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$razao_de_suporte.coverage" NAME="razao_de_suporte Coverage Results" MODIFIED="1730479419030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_agregada.coverage" NAME="calculo_renda_agregada Coverage Results" MODIFIED="1730917512548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_agregada_rj.coverage" NAME="calculo_renda_agregada_rj Coverage Results" MODIFIED="1735356834330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_piramide_etaria_rio_de_janeiro.coverage" NAME="calculo_piramide_etaria_rio_de_janeiro Coverage Results" MODIFIED="1735320090915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_razao_de_suporte_rj.coverage" NAME="calculo_razao_de_suporte_rj Coverage Results" MODIFIED="1735409300632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_rio_de_janeiro_e_brasil.coverage" NAME="calculo_renda_rio_de_janeiro_e_brasil Coverage Results" MODIFIED="1730946573905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_agregada_brasil.coverage" NAME="calculo_renda_agregada_brasil Coverage Results" MODIFIED="1735357256441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tcc_demografia$importando_municipios.coverage" NAME="importando_municipios Coverage Results" MODIFIED="1729735987798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_piramide_etaria_brasil.coverage" NAME="calculo_piramide_etaria_brasil Coverage Results" MODIFIED="1733710958373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$forca_trabalho_rio_de_janeiro.coverage" NAME="forca_trabalho_rio_de_janeiro Coverage Results" MODIFIED="1744052447624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$corte_censos.coverage" NAME="corte_censos Coverage Results" MODIFIED="1741809613253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$forca_trabalho_brasil.coverage" NAME="forca_trabalho_brasil Coverage Results" MODIFIED="1744052591837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_piramide_etaria_regiao_metropolitana.coverage" NAME="calculo_piramide_etaria_regiao_metropolitana Coverage Results" MODIFIED="1735325033109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$labor_force.coverage" NAME="labor_force Coverage Results" MODIFIED="1744043446825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda.coverage" NAME="calculo_renda Coverage Results" MODIFIED="1730917215342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_razao_de_suporte_brasil.coverage" NAME="calculo_razao_de_suporte_brasil Coverage Results" MODIFIED="1735409171262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$gerando_mapas.coverage" NAME="gerando_mapas Coverage Results" MODIFIED="1731360580073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_razao_de_suporte_rmrj.coverage" NAME="calculo_razao_de_suporte_rmrj Coverage Results" MODIFIED="1735409771218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_educacao.coverage" NAME="calculo_educacao Coverage Results" MODIFIED="1735437724441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_agregada_rmrj.coverage" NAME="calculo_renda_agregada_rmrj Coverage Results" MODIFIED="1735356510514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_educacao_brasil.coverage" NAME="calculo_educacao_brasil Coverage Results" MODIFIED="1735438305188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_educacao_rio_de_janeiro.coverage" NAME="calculo_educacao_rio_de_janeiro Coverage Results" MODIFIED="1735438155173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_educacao.coverage" NAME="calculo_educacao Coverage Results" MODIFIED="1735437724441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$Calculo_NTA_dividendo_ONU.coverage" NAME="Calculo_NTA_dividendo_ONU Coverage Results" MODIFIED="1774806356047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$Piramide_censo_2022.coverage" NAME="Piramide_censo_2022 Coverage Results" MODIFIED="1774534443879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$razao_de_suporte.coverage" NAME="razao_de_suporte Coverage Results" MODIFIED="1730479419030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$Desemprego_IPEA.coverage" NAME="Desemprego_IPEA Coverage Results" MODIFIED="1775138510868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$matriz_razao_suporte_agregada.coverage" NAME="matriz_razao_suporte_agregada Coverage Results" MODIFIED="1730944030368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_razao_de_suporte_rj.coverage" NAME="calculo_razao_de_suporte_rj Coverage Results" MODIFIED="1735409300632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$grafico_FMI.coverage" NAME="grafico_FMI Coverage Results" MODIFIED="1775261684329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$labor_force.coverage" NAME="labor_force Coverage Results" MODIFIED="1744043446825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$Grafico_Produtividade_FGV.coverage" NAME="Grafico_Produtividade_FGV Coverage Results" MODIFIED="1775265382523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_agregada.coverage" NAME="calculo_renda_agregada Coverage Results" MODIFIED="1730917512548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$corte_censos.coverage" NAME="corte_censos Coverage Results" MODIFIED="1745003538467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$comparacao_ONU_Censo_2022.coverage" NAME="comparacao_ONU_Censo_2022 Coverage Results" MODIFIED="1774483478998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_rio_de_janeiro_e_brasil.coverage" NAME="calculo_renda_rio_de_janeiro_e_brasil Coverage Results" MODIFIED="1730946573905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$Piramide_censo_2020.coverage" NAME="Piramide_censo_2020 Coverage Results" MODIFIED="1774465950815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_piramide_etaria_brasil.coverage" NAME="calculo_piramide_etaria_brasil Coverage Results" MODIFIED="1774465772659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$tcc_demografia.coverage" NAME="tcc_demografia Coverage Results" MODIFIED="1774538348561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_agregada_brasil.coverage" NAME="calculo_renda_agregada_brasil Coverage Results" MODIFIED="1735357256441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$Onu_dados.coverage" NAME="Onu_dados Coverage Results" MODIFIED="1774486143475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Piramide Etária - Brasil - ONU - Base futura" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$Calculo_Produto_NTA_Trabalho.coverage" NAME="Calculo_Produto_NTA_Trabalho Coverage Results" MODIFIED="1775414305189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_piramide_etaria_regiao_metropolitana.coverage" NAME="calculo_piramide_etaria_regiao_metropolitana Coverage Results" MODIFIED="1735325033109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_agregada_rj.coverage" NAME="calculo_renda_agregada_rj Coverage Results" MODIFIED="1735356834330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$forca_trabalho_brasil.coverage" NAME="forca_trabalho_brasil Coverage Results" MODIFIED="1774367116998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$Calculo_NTA_Dividendo.coverage" NAME="Calculo_NTA_Dividendo Coverage Results" MODIFIED="1775414158140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$forca_trabalho_rio_de_janeiro.coverage" NAME="forca_trabalho_rio_de_janeiro Coverage Results" MODIFIED="1745000849072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda.coverage" NAME="calculo_renda Coverage Results" MODIFIED="1730917215342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_NTA_Grafico.coverage" NAME="calculo_NTA_Grafico Coverage Results" MODIFIED="1774964343420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$gerando_mapas.coverage" NAME="gerando_mapas Coverage Results" MODIFIED="1731360580073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$forca_trabalho_rmrj.coverage" NAME="forca_trabalho_rmrj Coverage Results" MODIFIED="1745000944892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_renda_agregada_rmrj.coverage" NAME="calculo_renda_agregada_rmrj Coverage Results" MODIFIED="1735356510514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_piramide_etaria_rio_de_janeiro.coverage" NAME="calculo_piramide_etaria_rio_de_janeiro Coverage Results" MODIFIED="1735320090915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tcc_demografia$calculo_razao_de_suporte_rmrj.coverage" NAME="calculo_razao_de_suporte_rmrj Coverage Results" MODIFIED="1735409771218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
