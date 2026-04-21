@@ -60,16 +60,28 @@ for ano in df_homens.index:
     razao_sup_lista.append(rs)
     mediana_lista.append(mediana)
 
+# Lista para armazenar o percentual de idosos (65+)
+pop_65_mais_lista = []
+
+for ano in df_homens.index:
+    ano_real = 2024 + ano
+    pop_total = df_homens.loc[ano] + df_mulheres.loc[ano]
+    pop_65_mais = pop_total.iloc[13:].sum()
+    percentual_65_mais = (pop_65_mais / pop_total.sum()) * 100
+    pop_65_mais_lista.append(percentual_65_mais)
+
 df_indicadores = pd.DataFrame({
     'Ano': anos_tabela,
     'Razão de Dependência (%)': razao_dep_lista,
     'Razão de Suporte (Ativos/Inativos)': razao_sup_lista,
-    'Idade Mediana': mediana_lista
+    'Idade Mediana': mediana_lista,
+    '% Idosos (65+)': pop_65_mais_lista
 })
 
 df_indicadores['Razão de Dependência (%)'] = df_indicadores['Razão de Dependência (%)'].round(2)
 df_indicadores['Razão de Suporte (Ativos/Inativos)'] = df_indicadores['Razão de Suporte (Ativos/Inativos)'].round(2)
 df_indicadores['Idade Mediana'] = df_indicadores['Idade Mediana'].round(1)
+df_indicadores['% Idosos (65+)'] = df_indicadores['% Idosos (65+)'].round(2)
 
 # === SALVANDO EM EXCEL ===
 df_indicadores.to_excel('Indicadores_Demograficos_Brasil_ONU.xlsx', index=False)
@@ -83,7 +95,6 @@ plt.plot(df_indicadores['Ano'], df_indicadores['Razão de Dependência (%)'], co
 plt.title('Projeção da Razão de Dependência - Brasil (2024-2100)', fontsize=14)
 plt.xlabel('Ano', fontsize=12)
 plt.ylabel('Razão de Dependência (%)', fontsize=12)
-plt.grid(True, linestyle='--', alpha=0.6)
 plt.tight_layout()
 plt.savefig('grafico_razao_dependencia.png', dpi=300)
 plt.close()
@@ -94,7 +105,6 @@ plt.plot(df_indicadores['Ano'], df_indicadores['Razão de Suporte (Ativos/Inativ
 plt.title('Projeção da Razão de Suporte Demográfico - Brasil (2024-2100)', fontsize=14)
 plt.xlabel('Ano', fontsize=12)
 plt.ylabel('Proporção (Ativos para cada Inativo)', fontsize=12)
-plt.grid(True, linestyle='--', alpha=0.6)
 plt.tight_layout()
 plt.savefig('grafico_razao_suporte.png', dpi=300)
 plt.close()
@@ -105,7 +115,6 @@ plt.plot(df_indicadores['Ano'], df_indicadores['Idade Mediana'], color='purple',
 plt.title('Evolução da Idade Mediana - Brasil (2024-2100)', fontsize=14)
 plt.xlabel('Ano', fontsize=12)
 plt.ylabel('Idade (anos)', fontsize=12)
-plt.grid(True, linestyle='--', alpha=0.6)
 plt.tight_layout()
 plt.savefig('grafico_idade_mediana.png', dpi=300)
 plt.close()
@@ -140,7 +149,7 @@ for ano in df_homens.index:
     plt.gca().xaxis.set_major_formatter(FuncFormatter(percentual))
 
     filename = f"estrutura_etaria_{ano_1}.png"
-    plt.savefig(filename)
+    plt.savefig(filename, dpi=300)
     png_files.append(filename)
     plt.close()
 
