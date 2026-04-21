@@ -2,20 +2,14 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # 1. Carregar os dados
-# DICA: Verifique o nome da aba no Excel. Se for a segunda aba, use sheet_name=1
-# Se você souber o nome (ex: 'Séries'), use sheet_name='Séries'
 df = pd.read_excel('Produtividade_FGV.xlsx', sheet_name="Produtividade - R$ 2021", header=None)
 
-# Debug rápido: tire o comentário da linha abaixo se o erro persistir para ver o que o Python está lendo
-# print(df.head(15))
-
 # 2. Extrair os dados (Row 9 Excel = Index 8 Python)
-# Se o IBRE colocou uma coluna vazia no começo (A), o índice pode mudar.
-# Vamos garantir que estamos pegando as colunas certas:
+# Prevenção caso o IBRE insira uma coluna vazia no início (A)
 anos = pd.to_numeric(df.iloc[8:52, 0], errors='coerce') # Coluna A
 produtividade = pd.to_numeric(df.iloc[8:52, 2], errors='coerce') # Coluna C
 
-# 3. Limpeza de NAs (essencial para não quebrar o gráfico se houver linhas vazias no fim)
+# 3. Limpeza de NAs
 mask = anos.notna() & produtividade.notna()
 anos = anos[mask]
 produtividade = produtividade[mask]
@@ -39,5 +33,3 @@ ax.set_xticks(range(int(anos.min()), int(anos.max()) + 1, 4))
 plt.tight_layout()
 plt.savefig('Grafico_Produtividade_Final.png', dpi=300, bbox_inches='tight')
 plt.show()
-
-print("Agora foi! Gráfico gerado.")

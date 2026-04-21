@@ -6,8 +6,8 @@ OBS: A base desse projeto será o tcc de minha autoria, que está em andamento, 
 
 **Ultimos updates**
 
-- [ ] Atualização final Readme
-- [ ] Capitulo 3 feito
+- [x] Atualização final Readme
+- [x] Capitulo 3 feito
 - [x] Criação de arquivos finalizada e Github atualizado
 - [x] Capitulo 2 feito
 - [x] Capitulo 1 feito
@@ -18,8 +18,6 @@ OBS: A base desse projeto será o tcc de minha autoria, que está em andamento, 
 - [x] Cálculo do Bônus demográfico
 - [x] Corte na base de dados
 - [x] Criação do pré-projeto 
-
-## Sumário
 
 ## Introdução 
 
@@ -33,12 +31,7 @@ Nesse contexto, diversos autores passaram a realizar testes econométricos com r
 
 No século XXI, um novo problema surge, a redução nas taxas de natalidade nos países desenvolvidos e em alguns países emergentes, leva a patamares inferiores a taxa de reposição, 2,1 filhos por mulher, o que traz por consequencia a redução da população no futuro e o envelhecimento da estrutura etária da sociedade. Nesse contexto, diversos estudos a respeito desse problema estão sendo feitos, principalmente em relação aos efeitos econômicos adversos da redução da população em idade ativa.
 
-## Objetivo
+Este trabalho tem como objetivo mensurar o efeito da dinâmica demográfica em relação ao desenvolvimento econômico do Brasil, com base nas informações demográficas previstas nos censos de 1960 até 2022, incluindo projeções demográficas até o ano de 2100. A justificativa e a relevância deste estudo consistem na aceleração do envelhecimento da estrutura etária brasileira, que possui uma janela de oportunidade cada vez menor para enriquecer antes do decrescimento da sua população mais produtiva. Para tal, o conceito de dividendo demográfico será apresentado, sob a ótica metodológica de Mason (2005) e do arcabouço do NTA (National Transfer Accounts), mostrando a relação entre as variáveis populacionais e variáveis econômicas. Além disso, mudanças na escolaridade e na inserção das mulheres no mercado de trabalho, serão apresentadas como parte do dividendo demográfico de educação e gênero.
 
-Esse trabalho visa a mensuração do efeito do crescimento demográfico em relação ao desenvolvimento economico do Brasil, com base nas informações demográficas previstas nos censos de 1960 até 2010. Para tal, o conceito de dividendo demográfico será apresentado, mostrando a relação entre as variáveis populacionais e variáveis econômicas. Além disso, mudanças na escolaridade e na inserção das mulheres no mercado de trabalho, serão apresentados como parte do dividendo demográfico de educação e gênero.
+Com base nesses objetivos, a presente monografia está estruturada em três capítulos principais, além desta introdução e das considerações finais. O Capítulo 1 apresenta o debate histórico da relação entre o crescimento populacional e o crescimento econômico, além de suas consequências com o surgimento da economia geracional e os conceitos de dividendo demográfico, consolidando assim o referencial teórico desta monografia. O Capítulo 2 explora o contexto brasileiro, mostrando os principais impactos da transição demográfica e consequentes mudanças na estrutura etária. Por fim, o Capítulo 3 revela os resultados encontrados, com uma estimação matemática do impacto do primeiro dividendo na economia brasileira de 1970 a 2022, além de incluir uma análise futura para as próximas décadas e uma explicação sobre os impactos do segundo dividendo e as falhas brasileiras em seu aproveitamento.
 
-## Metodologia
-
-Será introduzido o conceito de ciclo de vida economico, o qual compreende que as atividades econômicas variam entre os indivíduos de diferentes faixas etárias. Assim, atribuindo a ideia de indivíduos com renda deficitária e dependente, como as crianças e os idosos, e indivíduos com renda superavitária e não-dependente, como os adultos. Dessa forma, a dinâmica das mudanças na estrutura etária da população será estudada por meio de um modelo de ciclo de vida economico.
-
-Para o cálculo das variáveis desse modelo, será utilizado os microdados dos censos brasileiros presentes no projeto IPUMS International coordenado pela Universidade de Minnesota, devido a sua simplificação e facilidade de utilização. Ademais para a estimativa da população em idade ativa, utilizaremos a variável razão de suporte, que representa a razão da população em idade de trabalho pela população dependente, crianças e idosos. Após isso, será calculado a variação anual da razão de suporte de 1960 até 2010, estabelecendo uma comparação com o crescimento do PIB per capita da região em cada década. Por fim, variáveis de renda, educação e gênero irão compor o restante da análise.
